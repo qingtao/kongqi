@@ -1,0 +1,38 @@
+{
+  "Userkey": "0bf11111111111118fb1222222222222",
+  "uploadSensors": "http://www.lewei50.com/api/V1/gateway/UpdateSensors/01",
+  "timeout": 5,
+  "co2_invalid_value": {
+    "index": 3,
+    "value": 5000
+  },
+  "frequency_limit": 20,
+  "debug": true,
+  "serial_config": {
+    "name": "COM3",
+    "baud": 57600
+  },
+  "sensors_id": {
+    "1": {
+      "Name": "V1"
+    },
+    "2": {
+      "Name": "V2"
+    },
+    "3": {
+      "Name": "V3"
+    },
+    "4": {
+      "Name": "V4"
+    },
+    "5": {
+      "Name": "V5"
+    },
+    "6": {
+      "Name": "V6"
+    },
+    "7": {
+      "Name": "V7"
+    }
+  }
+}

@@ -11,7 +11,7 @@ import (
 var (
 	hptest1 = &HaiPa{
 		//实际测试时修改UserKey
-		UserKey: "0bf23c281234666243246622dd93b3a2",
+		UserKey: "0bf23c28111111111111193b3a2",
 		//URL带有网关
 		UpdateSensorsURL: `http://www.lewei50.com/api/V1/gateway/UpdateSensors/01`,
 		Timeout:          5,

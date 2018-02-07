@@ -209,6 +209,8 @@ func (hp *HaiPa) UpdateSensors(client *http.Client, data *Data) {
 		hp.logger.Printf("WARN: client do request failed: %s\n", err)
 		return
 	}
+	defer resp.Body.Close()
+	
 	b, err = ioutil.ReadAll(resp.Body)
 	if err != nil {
 		hp.logger.Printf("ERROR: read result failed: %s\n", err)
